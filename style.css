@@ -1,0 +1,114 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  background-color: #1f1f1f !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #00bcd4 !important;
+}
+
+#cityInput {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+}
+
+#cityInput::placeholder {
+  color: #cccccc;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 188, 212, 0.2);
+  color: #ffffff;
+}
+
+.btn-info {
+  background-color: #00bcd4;
+  color: #ffffff;
+  border: none;
+}
+
+.alert-danger {
+  background-color: #ff4c4c;
+  color: white;
+}
+
+/* Light mode styles */
+body.light-mode {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+body.light-mode .navbar {
+  background-color: #f8f9fa !important;
+}
+
+body.light-mode .navbar-brand,
+body.light-mode .nav-link {
+  color: #121212 !important;
+}
+
+body.light-mode .nav-link:hover {
+  color: #00bcd4 !important;
+}
+
+body.light-mode #cityInput {
+  background-color: #f1f1f1;
+  color: #121212;
+  border: 1px solid #ccc;
+}
+
+body.light-mode #cityInput::placeholder {
+  color: #666;
+}
+
+body.light-mode .card {
+  background-color: #f5f5f5;
+  color: #121212;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .btn-info {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+body.light-mode .alert-danger {
+  background-color: #ff4c4c;
+  color: #fff;
+}
+
+/* Time-based themes */
+body.morning {
+  background-color: #fff8e1;
+  color: #333;
+}
+
+body.afternoon {
+  background-color: #e3f2fd;
+  color: #333;
+}
+
+body.evening {
+  background-color: #ffe0b2;
+  color: #333;
+}
+
+body.night {
+  background-color: #121212;
+  color: #fff;
+}
